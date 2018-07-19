@@ -42,7 +42,7 @@ void DeviceNotification( void *		refCon,
         printf("Yubikey removed. Lock the screen.\n");
 
         // Lock the keychain too
-        system("/usr/bin/security lock-keychain");
+        // system("/usr/bin/security lock-keychain");
 
         io_registry_entry_t reg = IORegistryEntryFromPath(kIOMasterPortDefault, "IOService:/IOResources/IODisplayWrangler");
         if (reg) {
