@@ -1,9 +1,9 @@
 class Yubikeylockd < Formula
   desc 'Simple daemon for locking and unlocking macOS with Yubikey.'
-  homepage 'https://github.com/shtirlic/yubikeylockd'
-  url 'https://github.com/shtirlic/yubikeylockd/archive/v1.1.zip'
-  head 'https://github.com/shtirlic/yubikeylockd.git'
-  sha256 '44ba63cb286c29fa653d2307f053162bb600a7138e6f6766d40144a504a376b7'
+  homepage 'https://github.com/delicb/yubikeylockd'
+  url 'https://github.com/delicb/yubikeylockd/archive/1.2.zip'
+  head 'https://github.com/delicb/yubikeylockd.git'
+  sha256 '3ceaa39c871ce6043ed34212b50dea859b0bde163adc6a7656b9ab9470c7d3dc'
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
