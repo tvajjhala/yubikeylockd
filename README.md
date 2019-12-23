@@ -7,7 +7,7 @@ Simple daemon for locking and unlocking macOS with Yubikey.
 Via Homebrew formula:
 
 ```
-brew install https://raw.githubusercontent.com/delicb/yubikeylockd/master/yubikeylockd.rb
+brew install https://raw.githubusercontent.com/tvajjhala/yubikeylockd/master/yubikeylockd.rb
 ```
 
 ## Additional requirements
